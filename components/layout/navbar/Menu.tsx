@@ -46,7 +46,7 @@ const Menu = ({ setMenuIsOpen }: MenuProps) => {
         ))}
         <Link
           href={"login"}
-          className="border border-brandColor rounded-md text-brandColor px-8 py-4 text-lg font-semibold"
+          className="w-max border border-brandColor rounded-md text-brandColor px-8 py-4 text-lg font-semibold xl:block hidden hover:bg-brandColor hover:text-black/80 transition-all duration-300"
         >
           Get Started
         </Link>
