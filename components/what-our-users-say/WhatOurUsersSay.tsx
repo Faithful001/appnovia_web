@@ -1,13 +1,5 @@
 "use client";
 import { useKeenSlider } from "keen-slider/react";
-import card1 from "../../public/assets/images/user_img1.svg";
-import card2 from "../../public/assets/images/user_img2.svg";
-import card3 from "../../public/assets/images/user_img3.svg";
-import card4 from "../../public/assets/images/user_img4.svg";
-import card5 from "../../public/assets/images/user_img5.svg";
-import card6 from "../../public/assets/images/user_img6.svg";
-import card7 from "../../public/assets/images/user_img7.svg";
-import card8 from "../../public/assets/images/user_img8.svg";
 import Image from "next/image";
 import { whatOurUserSayData } from "@/data/whatOurUsersSay.data";
 
