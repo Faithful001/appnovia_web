@@ -26,7 +26,7 @@ const WhatOurUsersSay = () => {
           What Our Users Say About Us
         </h1>
         <p className="tracking-wide text-base text-center">
-          These testimonials showcase Deximpli's dedication to driving
+          These testimonials showcase Deximplis dedication to driving
         </p>
       </span>
       <div
