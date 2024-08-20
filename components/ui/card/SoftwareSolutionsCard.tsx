@@ -3,7 +3,11 @@ const SoftwareSolutionsCard = ({
   icon,
   heading,
   body,
-}: SoftwareSolutionsProps) => {
+}: {
+  icon: string;
+  heading: string;
+  body: string;
+}) => {
   return (
     <div
       className="software-solutions-card flex flex-col items-start gap-3 p-5 rounded-lg shadow-lg bg-white"

@@ -5,6 +5,11 @@ import icon4 from "../public/assets/icons/ss_img4.svg";
 import icon5 from "../public/assets/icons/ss_img5.svg";
 import icon6 from "../public/assets/icons/ss_img6.svg";
 
+type SoftwareSolutionsProps = {
+  icon: string;
+  heading: string;
+  body: string;
+};
 export const softwareSolutionsData: SoftwareSolutionsProps[] = [
   {
     icon: icon1,
