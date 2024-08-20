@@ -6,7 +6,7 @@ import img4 from "../../public/assets/images/learn_more_card_img4.svg";
 
 const LearnMore = () => {
   return (
-    <div className="lg:pl-[116.37px] py-[116.37px] px-10 flex flex-col gap-10">
+    <div className="lg:pl-[116.37px] lg:py-[116.37px] md:py-[95px] sm:py-[75px] py-[60px] px-10 flex flex-col gap-10">
       <LearnMoreCard
         heading="Transform Your Healthcare experience with Our Smart EMR Solutions"
         body="Leverage advanced analytics and real-time data to make informed financial decisions and drive business growth. Our software simplifies budgeting, forecasting, and reporting, making financial management straightforward and reliable."

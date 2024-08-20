@@ -26,7 +26,7 @@ const LearnMoreCard = ({
       <Image
         src={imageUrl}
         alt=""
-        className={`sm:w-2/3 md:w-1/2  ${
+        className={`sm:w-2/3 md:w-1/2 lg:-mt-12 mt-0 ${
           imagePos === "left" ? "block" : imagePos === "right" ? "hidden" : ""
         }`}
       />
@@ -61,7 +61,7 @@ const LearnMoreCard = ({
       <Image
         src={imageUrl}
         alt=""
-        className={`sm:w-2/3 md:w-1/2 ${
+        className={`sm:w-2/3 md:w-1/2 lg:-mt-14 mt-0 ${
           imagePos === "left" ? "hidden" : imagePos === "right" ? "block" : ""
         }`}
       />
