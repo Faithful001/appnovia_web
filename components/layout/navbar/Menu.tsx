@@ -23,7 +23,7 @@ const Menu = ({ setMenuIsOpen }: MenuProps) => {
 
   return (
     <div
-      className={`bg-primaryColor z-50 w-screen left-0 flex flex-col items-start justify-between p-10 lg:px-24 fixed text-white h-screen top-0 transition-transform duration-300 ease-in-out ${
+      className={`bg-primaryColor z-50 w-screen left-0 flex flex-col items-start justify-start gap-14 p-10 lg:px-24 fixed text-white h-screen top-0 transition-transform duration-300 ease-in-out ${
         isVisible ? "transform translate-x-0" : "transform -translate-x-full"
       }`}
     >
