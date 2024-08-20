@@ -17,9 +17,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      // fontSize: {
-      //   "5xl": ["clamp(28px, 60vw, 48px)", "72px"], // Add line height as a second value in the array
-      // },
+      minWidth: {
+        xl: "1115px",
+      },
     },
   },
   plugins: [],
