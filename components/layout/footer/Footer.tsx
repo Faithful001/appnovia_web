@@ -31,13 +31,11 @@ const Footer = () => {
           {footerData.map((data, index) => (
             <div className="flex flex-col gap-3" key={index}>
               <h2 className="font-medium text-xl">{data.title}</h2>
-              <div>
+              <div className="flex flex-col gap-[8px]">
                 {data.links.map((link, index) => (
-                  <div className="flex flex-col gap-[8px]">
-                    <Link href={link} key={index} className="text-[#FFFFFFCC]">
-                      {link}
-                    </Link>
-                  </div>
+                  <Link href={link} className="text-[#FFFFFFCC]" key={index}>
+                    {link}
+                  </Link>
                 ))}
               </div>
             </div>
