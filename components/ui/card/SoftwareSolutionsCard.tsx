@@ -1,0 +1,22 @@
+import Image from "next/image";
+const SoftwareSolutionsCard = ({
+  icon,
+  heading,
+  body,
+}: SoftwareSolutionsProps) => {
+  return (
+    <div
+      className="software-solutions-card flex flex-col items-start gap-3 p-5 rounded-lg shadow-lg bg-white"
+      //   style={{
+      //     boxShadow:
+      //       "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 0 5px 5px rgba(0, 0, 0, 0.2)",
+      //   }}
+    >
+      <Image src={icon} alt="" />
+      <h1 className="font-600 text-2xl">{heading}</h1>
+      <p className="text-16px text-[#121212CC]">{body}</p>
+    </div>
+  );
+};
+
+export default SoftwareSolutionsCard;
