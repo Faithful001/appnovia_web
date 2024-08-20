@@ -1,9 +1,10 @@
 import { StaticImageData } from "next/image";
+declare module "*.json";
 
-type NavBarLinksProps = {
+interface NavBarLinksProps {
   title: string;
   to: string;
-};
+}
 
 type SoftwareSolutionsProps = {
   icon: string;

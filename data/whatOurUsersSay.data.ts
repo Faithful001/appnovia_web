@@ -1,4 +1,4 @@
-import { WhatOurUsersSayDataProps } from "@/types";
+import { StaticImageData } from "next/image";
 import img1 from "../public/assets/images/user1.png";
 import img2 from "../public/assets/images/user2.png";
 import img3 from "../public/assets/images/user3.png";
@@ -7,6 +7,13 @@ import img5 from "../public/assets/images/user5.png";
 import img6 from "../public/assets/images/user6.png";
 import img7 from "../public/assets/images/user7.png";
 import img8 from "../public/assets/images/user8.png";
+
+type WhatOurUsersSayDataProps = {
+  img: StaticImageData;
+  name: string;
+  occupation: string;
+  review: string;
+};
 
 export const whatOurUserSayData: WhatOurUsersSayDataProps[][] = [
   [

@@ -1,3 +1,8 @@
+interface NavBarLinksProps {
+  title: string;
+  to: string;
+}
+
 export const navbarLinks: NavBarLinksProps[] = [
   {
     title: "Home",

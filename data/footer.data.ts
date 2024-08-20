@@ -1,4 +1,9 @@
-export const footerData = [
+type FooterDataProps = {
+  title: string;
+  links: string[];
+};
+
+export const footerData: FooterDataProps[] = [
   {
     title: "Products",
     links: ["Novia Care", "Novia Book"],
