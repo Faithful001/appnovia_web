@@ -53,10 +53,10 @@ const WhatOurUsersSay = () => {
         <div className="keen-slider__slide flex gap-6 z-20">
           {whatOurUserSayData[1].map((data, index) => (
             <div
-              className="p-7 rounded-xl shadow-lg flex flex-col gap-[20px] w-full text-[#555555]"
+              className="p-7 rounded-xl shadow-lg flex flex-col gap-[20px] w-[35rem] text-[#555555]"
               key={index}
             >
-              <div className="flex items-start justify-start gap-[12px] w-[30rem]">
+              <div className="flex items-start justify-start gap-[12px] w-[35rem]">
                 <Image src={data.img} alt="" className="w-[50px]" />
                 <span className="flex flex-col items-start gap-1 ">
                   <h5 className="text-[20px]">{data.name}</h5>
