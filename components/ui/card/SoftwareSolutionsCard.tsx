@@ -17,7 +17,9 @@ const SoftwareSolutionsCard = ({
       //   }}
     >
       <Image src={icon} alt="" />
-      <h1 className="font-600 text-2xl">{heading}</h1>
+      <h1 className="font-semibold md:text-2xl text-xl text-[#191A1A] tracking-wide">
+        {heading}
+      </h1>
       <p className="text-16px text-[#121212CC]">{body}</p>
     </div>
   );

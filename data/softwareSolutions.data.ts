@@ -18,27 +18,27 @@ export const softwareSolutionsData: SoftwareSolutionsProps[] = [
   },
   {
     icon: icon2,
-    heading: "EMR Solutions",
-    body: "Streamline patient care with our advanced electronic medical records system",
+    heading: "Financial Management",
+    body: "Optimize your financial processes with our software, designed for accuracy and efficiency in all aspects of finance",
   },
   {
     icon: icon3,
-    heading: "EMR Solutions",
-    body: "Streamline patient care with our advanced electronic medical records system",
+    heading: "ERP Systems",
+    body: "Centralize and simplify your business operations with our integrated ERP solutions",
   },
   {
     icon: icon4,
-    heading: "EMR Solutions",
-    body: "Streamline patient care with our advanced electronic medical records system",
+    heading: "School Management",
+    body: "Enhance educational administration with our comprehensive school management tools",
   },
   {
     icon: icon5,
-    heading: "EMR Solutions",
-    body: "Streamline patient care with our advanced electronic medical records system",
+    heading: "E-Commerce",
+    body: "Drive online sales and improve customer experience with our tailored e-commerce solutions",
   },
   {
     icon: icon6,
-    heading: "EMR Solutions",
-    body: "Streamline patient care with our advanced electronic medical records system",
+    heading: "E-Book Services",
+    body: "Expand your digital content offerings with our platform, making e-books more accessible and engaging",
   },
 ];
