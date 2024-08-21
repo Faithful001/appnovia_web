@@ -11,9 +11,8 @@ const Hero = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setShowHeroOne((prevShowHeroOne) => !prevShowHeroOne);
-    }, 3000); // Toggle every 2 seconds
-
-    // Cleanup interval on component unmount
+    }, 3000); // Toggle every 3 seconds
+    
     return () => clearInterval(intervalId);
   }, []);
 
