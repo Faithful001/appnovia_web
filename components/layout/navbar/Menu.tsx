@@ -11,14 +11,14 @@ const Menu = ({ setMenuIsOpen }: MenuProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    setIsVisible(true); // Show the menu with the sliding effect when it's rendered
+    setIsVisible(true);
   }, []);
 
   const handleCloseMenu = () => {
     setIsVisible(false);
     setTimeout(() => {
-      setMenuIsOpen(false); // Hide the menu after the sliding effect
-    }, 300); // Adjust the timeout to match the transition duration
+      setMenuIsOpen(false); 
+    }, 300); 
   };
 
   return (
